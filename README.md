@@ -1,9 +1,9 @@
-Woodic V2Ray Collector V4.0.1
+Woodic Connect V4.0.1
 A powerful Android tool for collecting, testing, and managing V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from online sources.
 
 📖 About
 
-Woodic V2Ray Collector v4.0.3 is an advanced Android application that automatically fetches, tests, and organizes available V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from multiple online sources. It eliminates the need for manual searching and provides users with ready-to-use, high-quality proxy configurations.
+Woodic Connect v4.0.1 is an advanced Android application that automatically fetches, tests, and organizes available V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from multiple online sources. It eliminates the need for manual searching and provides users with ready-to-use, high-quality proxy configurations.
 
 The app employs a sophisticated multi-stage testing process to ensure only reliable and fast configurations are presented to the user.
 
