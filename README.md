@@ -1,17 +1,94 @@
-Woodic V2Ray Collector v3.5.0 is an Android tool that collects available V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from online sources and organizes them in one place for easy access and use.
+Woodic V2Ray Collector V4.0.1
+A powerful Android tool for collecting, testing, and managing V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from online sources.
 
-It helps users quickly find and manage fresh proxy configs without manual searching. The app automatically fetches configurations from multiple sources, tests them for speed and latency using a 4-stage verification process, and displays only the working ones.
+📖 About
 
-Key features include:
-• Support for V2Ray protocols (VMess, VLESS, Trojan, Shadowsocks)
-• Support for SOCKS4 and SOCKS5 proxies
-• Support for HTTP and HTTPS proxies with 4-stage testing
-• 4-stage HTTP test: TCP → CONNECT 200 → TLS Handshake → GET 204
-• Real delay testing using libv2ray library for V2Ray/SOCKS
-• Google gen_204 endpoint for HTTP testing
-• Random selection testing from thousands of configs
-• Clipboard import with auto-format conversion (supports IP:Port)
-• Cache system for offline access
-• Multiple updated sources (8+ SOCKS sources, 8+ HTTP sources, 5 V2Ray sources)
-• High-speed testing with 40 threads for HTTP and 80 threads for TCPing
-• Version 3.5.0 with optimized performance
+Woodic V2Ray Collector v4.0.3 is an advanced Android application that automatically fetches, tests, and organizes available V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from multiple online sources. It eliminates the need for manual searching and provides users with ready-to-use, high-quality proxy configurations.
+
+The app employs a sophisticated multi-stage testing process to ensure only reliable and fast configurations are presented to the user.
+
+✨ Key Features
+
+🔄 Multi-Protocol Support
+
+· V2Ray Protocols: VMess, VLESS, Trojan, Shadowsocks
+· SOCKS Proxies: SOCKS4 and SOCKS5
+· HTTP/HTTPS Proxies: Full HTTP and HTTPS support with advanced testing
+
+🧪 Advanced Testing Engine
+
+· 4-Stage HTTP Test: TCP Connection → CONNECT 200 → TLS Handshake → GET 204
+· Real Delay Testing: Uses libv2ray library for accurate V2Ray/SOCKS latency measurement
+· Google gen_204 Endpoint: Standard HTTP testing for reliable results
+· High-Performance Testing:
+  · 40 threads for HTTP testing
+  · 80 threads for TCPing
+  · 15-30 concurrent threads for V2Ray testing
+
+📊 Smart Configuration Management
+
+· Random Selection Testing: Tests random subsets from thousands of configs
+· Duplicate Removal: Automatic detection and removal of duplicate configurations
+· Cache System: Offline access to previously fetched configurations
+· Clipboard Import: Auto-format conversion (supports IP:Port format)
+
+🔗 Multiple Updated Sources
+
+· 8+ SOCKS Sources (SOCKS4 & SOCKS5)
+· 8+ HTTP Sources (HTTP & HTTPS)
+· 5+ V2Ray Sources (VMess, VLESS, Trojan, Shadowsocks)
+· Regular Updates: Sources are frequently updated for fresh configurations
+
+
+V2Ray Sources (5+ sources)
+├── Hamed Service
+├── V2RayRoot (VLESS, VMess, SS)
+├── Farid-Karimi (VMess, VLess, Trojan)
+├── DukeMehdi
+└── ConfigForge
+
+SOCKS Sources (8+ sources)
+├── Proxifly (SOCKS5, SOCKS4)
+├── iplocate (SOCKS5, SOCKS4)
+├── stormsia
+├── ProxyScraper
+└── r00tee
+
+HTTP Sources (8+ sources)
+├── TheSpeedX
+├── ShiftyTR
+├── mmpx222
+├── jetkai
+├── clarketm
+└── iplocate
+
+🔒 Privacy & Security
+
+· All configurations are fetched from public sources
+· No personal data is collected
+· All testing is performed locally on your device
+· No tracking or analytics
+
+---
+
+🙏 Credits & Libraries
+
+This project uses several open-source libraries:
+
+· V2ray-Android by dev7dev - Core V2Ray implementation
+· Xray-core by XTLS - Xray core engine
+
+📞 Contact & Support
+
+Telegram Channel: @WoodicWay
+Issues: GitHub Issues
+
+🌟 Star History
+
+If you find this project useful, please give it a ⭐ on GitHub!
+
+📌 Disclaimer
+
+This tool is for educational and research purposes only. Users are responsible for complying with all applicable laws and regulations regarding proxy usage in their region.
+
+Made with ❤️ by @WoodicWay
