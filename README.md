@@ -1,4 +1,4 @@
-Woodic Connect V4.0.1
+Woodic Connect V5.0
 A powerful Android tool for collecting, testing, and managing V2Ray, SOCKS, and HTTP/HTTPS proxy configurations from online sources.
 
 📖 About
