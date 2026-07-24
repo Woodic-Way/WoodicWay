@@ -1,0 +1,78 @@
+name: Build hev-socks5-tunnel native libs
+
+# Runs entirely on GitHub's servers — nothing to install on your phone.
+# Push to main to build; check the Actions tab, then download the
+# "hev-tunnel-libs" artifact (a jniLibs/ folder ready to drop into your app).
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/build-hev-tunnel.yml'
+  workflow_dispatch:
+    inputs:
+      hev_ref:
+        description: 'hev-socks5-tunnel git ref to build'
+        default: 'main'
+        required: false
+      pkgname:
+        description: 'Java package (slash form) that will hold the native class'
+        default: 'com/woodic/core'
+        required: false
+      clsname:
+        description: 'Java class name that declares the native methods'
+        default: 'HevTunnel'
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Clone hev-socks5-tunnel (with submodules)
+        run: |
+          git clone --recursive \
+            https://github.com/heiher/hev-socks5-tunnel.git \
+            hev-src
+          cd hev-src
+          git checkout "${{ github.event.inputs.hev_ref || 'main' }}"
+          git submodule update --init --recursive
+
+      - name: Install Android NDK
+        id: setup-ndk
+        uses: nttld/setup-ndk@v1
+        with:
+          ndk-version: r27d
+          link-to-sdk: true
+
+      - name: Build shared libs with ndk-build
+        env:
+          ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
+          PKGNAME: ${{ github.event.inputs.pkgname || 'com/woodic/core' }}
+          CLSNAME: ${{ github.event.inputs.clsname || 'HevTunnel' }}
+        run: |
+          cd hev-src
+          "$ANDROID_NDK_HOME/ndk-build" \
+            NDK_PROJECT_PATH=. \
+            APP_BUILD_SCRIPT=./Android.mk \
+            APP_APPLICATION_MK=./Application.mk \
+            NDK_LIBS_OUT=./libs \
+            NDK_OUT=./obj \
+            APP_ABI="arm64-v8a armeabi-v7a" \
+            NDK_MODULE_PATH=. \
+            "APP_CFLAGS=-DPKGNAME=${PKGNAME} -DCLSNAME=${CLSNAME}"
+
+      - name: Collect only the shared library (drop the CLI binary + debug objs)
+        run: |
+          mkdir -p out/arm64-v8a out/armeabi-v7a
+          cp hev-src/libs/arm64-v8a/libhev-socks5-tunnel.so   out/arm64-v8a/
+          cp hev-src/libs/armeabi-v7a/libhev-socks5-tunnel.so out/armeabi-v7a/
+          find out -type f
+
+      - name: Upload jniLibs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hev-tunnel-libs
+          path: out/
+          retention-days: 30
