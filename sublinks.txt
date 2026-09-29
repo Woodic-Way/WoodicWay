@@ -1,1 +1,2 @@
 https://bot.kahrobas.shop/sub.txt
+https://wallweb.telegramwallweb.workers.dev/sub?domain=wallweb3.pages.dev&type=edgetunnel
