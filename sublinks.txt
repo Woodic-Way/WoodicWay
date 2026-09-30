@@ -1,4 +1,4 @@
 https://bot.kahrobas.shop/sub.txt
 https://wallweb.telegramwallweb.workers.dev/sub?domain=wallweb3.pages.dev&type=edgetunnel
 https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt
-https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Countries/Canada.txt
+
