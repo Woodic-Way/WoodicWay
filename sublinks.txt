@@ -1,6 +1,7 @@
 ByGFW | https://bot.kahrobas.shop/sub.txt
 Radikal-Top100 | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt
-Radikal-Verified | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt Morpheus-Iran | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/iran.txt
+Radikal-Verified | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt 
+Morpheus-Iran | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/iran.txt
 Milad-Iran | https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt
 SS44-GOLD | https://raw.githubusercontent.com/ZendanTeam/SS44-sub/main/SS44-gold.txt
 Simorgh | https://raw.githubusercontent.com/itsyebekhe/Simorgh/refs/heads/main/subscriptions/base64/vless
