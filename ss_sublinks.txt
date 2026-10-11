@@ -1,45 +1,26 @@
+
 SS-Radikal | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/protocols/shadowsocks.txt
 SS-Radikal-B64 | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/protocols/shadowsocks_base64.txt
-SS-BarryFar | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt
 SS-Morpheus | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/shadowsocks.txt
-SS-Sevcator | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/ss.txt
+SS-BarryFar | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt
 SS-F0rc3Run | https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/shadowsocks.txt
+SS-Sevcator | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/ss.txt
 SS-Epodonios | https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt
-SS-Zengfr | https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_raw_shadowsocks.txt
-SS-Zengfr-Sub | https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_shadowsocks.txt
-SS-10ium | https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output_configs/ShadowSocks.txt
-SS-V2Hub4 | https://raw.githubusercontent.com/coldwater-10/V2Hub4/main/Split/Normal/shadowsocks
+SS-Gfpcom | https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/ss.txt
 SS-V2Hub5 | https://raw.githubusercontent.com/coldwater-10/V2Hub5/main/Split/Normal/shadowsocks
 SS-V2Hub5-B64 | https://raw.githubusercontent.com/coldwater-10/V2Hub5/main/Split/Base64/shadowsocks
-SS-V2RayRoot | https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/shadowsocks.txt
+SS-V2Hub4 | https://raw.githubusercontent.com/coldwater-10/V2Hub4/main/Split/Normal/shadowsocks
+SS-10ium | https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output_configs/ShadowSocks.txt
 SS-MegaV | https://raw.githubusercontent.com/Romaxa55/MegaV_Public/main/subs/ss.txt
-SS-Yasser | https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/ShadowSocks2021.txt
 
-# --- کلکسیون‌هایی که SS زیاد دارند + کشور در نام ---
+# --- Aggregators that include many SS with country tags ---
 Lagzian-All | https://raw.githubusercontent.com/lagzian/SS-Collector/main/configs/subscription-all.b64
-Lagzian-SS | https://raw.githubusercontent.com/lagzian/SS-Collector/main/configs/ss.b64
 Au1rxx-V2ray | https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
-Radikal-Verified | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt
-Radikal-Top100 | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt
-Morpheus-All | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt
 Morpheus-Lite | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/lite.txt
 Morpheus-Best | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt
-BarryFar-All | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
+Radikal-Verified | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt
+Radikal-Top100 | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt
+F0rc3Run-Best | https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/proxies.txt
 BarryFar-Sub1 | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 BarryFar-Sub2 | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
-BarryFar-Sub3 | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
-BarryFar-Sub4 | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
-BarryFar-Sub5 | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt
-Sevcator-Mini1 | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-1.txt
-Sevcator-Mini2 | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-2.txt
-Sevcator-Mini3 | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-3.txt
-F0rc3Run-Best | https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/proxies.txt
-Epodonios-All | https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt
-OpenProxy-V2ray | https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
-FreeNodes-Sub | https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub
-Milad-Iran | https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt
-Youfoundamin | https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt
-
-# --- SSR (اگر لازم داشتی) ---
-SSR-BarryFar | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ssr.txt
-SSR-Radikal | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/protocols/shadowsocksr.txt
+Pawdroid | https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
