@@ -4,7 +4,6 @@ SS-Radikal-B64 | https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/
 SS-Morpheus | https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/shadowsocks.txt
 SS-BarryFar | https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt
 SS-F0rc3Run | https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/shadowsocks.txt
-SS-Sevcator | https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/ss.txt
 SS-Epodonios | https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt
 SS-Gfpcom | https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/ss.txt
 SS-V2Hub5 | https://raw.githubusercontent.com/coldwater-10/V2Hub5/main/Split/Normal/shadowsocks
